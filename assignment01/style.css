@@ -1,0 +1,61 @@
+body {
+    background: url(coffee_background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.ima {
+    color: azure;
+    text-align: center;
+    margin-top: 15%;
+    letter-spacing: -.05em;
+    line-height: 1.2em;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.ime {
+    height: 100px;
+    width: 200px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: yellow;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    font-weight: bold;
+    color: brown;
+}
+
+a:hover:not(.active) {
+    text-decoration: none;
+    color: white;
+    background-color: crimson;
+}
+
+.active {
+    background-color: firebrick;
+    text-decoration: none;
+}
+
+li.right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    li.right,
+    li {
+        float: none;
+        text-align: center;
+    }
+}
